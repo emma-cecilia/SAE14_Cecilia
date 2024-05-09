@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Page d'Accueil</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap-icons.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style3.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="css/carousel.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		
+		<header class="position-fixed w-100">
+			
+			<!-- Début nav -->
+			<nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+					  <a class="nav-link active" aria-current="page" href="index.html"> Accueil</a>
+					  <a class="nav-link" href="cv_fr.html">CV_FR</a>
+					  <a class="nav-link" href="cv_en.html"> CV_EN</a>
+					</div>
+				  </div>
+				</div>
+			</nav>
+			<!-- fin nav -->
+		</header>
+		
+		<br>
+		<!-- Debut hearder -->
+			<!-- Début section à Propos -->
+			<div class="container-fluid  d-flex align-items-center mb-5" id="home">
+			<div>
+				<div class="row align-items-center">
+					<div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+						<img class="img-fluid w-50 rounded-circle shadow-sm" src="images/cecilia.jpg" alt="">
+					</div> 
+					
+					<div class="col-lg-7 text-lg-left">
+						<h3 class="text-white font-weight-normal mb-3">Bienvenue sur ma page web</h3>
+						<h3 class="text-white font-weight-normal mb-3">Bonjour, je m'appelle</h3>
+						<h1 class="display-3 text-uppercase mb-2" style="-webkit-text-stroke: 2px #ffffff;">Emmanuelle Cécilia boukaka</h1>
+						<div class="typed-text" id="texteDefilant"><h1 style="-webkit-text-stroke: 1px #ffffff;">Technicienne informatique système réseau et télécom</h1></div>
+						
+						<div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+							<a href="cv_fr.html" class="btn btn-outline-light mr-4" target="_blank">CV détaillé (FR) </a>&emsp;
+							<a href="cv_en.html" class="btn btn-outline-light mr-4" target="_blank">Detailed CV (EN)</a>&emsp;
+							<a href="https://get.adobe.com/reader/" target="_blank"><img src="images/adobe-logo.jpg" class="mr-4" style="width:126px;height:43px;border-radius:3px" alt="Adobe Acrobat"></a>&emsp;
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin Header -->
+		
+		<!-- Début section à Propos -->
+			<section id="apropos">
+				<div class="container">
+					<div class="divider"></div>
+					<div class="heading">
+						<h2>A Propos de moi</h2>
+					</div>
+				   
+						<div class="col-md-12">
+							<div class="education-block">
+								<p>
+									Étudiante passionnée par les réseaux informatiques et actuellement inscrite en BUT Réseaux et Télécommunications à l'IUT d'Elbeuf, 
+									je suis activement à la recherche d'une alternance dans le domaine du réseau et Télécommunication. Mon parcours académique, 
+									mon expérience professionnelle et ma passion pour les Réseaux Informatiques m'ont dotée d'une solide compréhension théorique que 
+									je suis prête à mettre en pratique au sein d'une entreprise dynamique. Mon objectif est de contribuer activement à des projets concrets 
+									tout en développant mes compétences en télécommunications, réseaux et sécurité. 
+								</p>
+							</div>
+						</div>
+				 </div>
+			</section>
+			<!-- Fin section à Propos -->
+		
+		<section class="container diaporama">
+			<div class="heading">
+				<h2>Loisirs</h2>
+			</div>
+					
+			<div class="slideshow">
+						<!-- Insérez ici votre diaporama de photos professionnelles/loisirs -->
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img class="first-slide" src="images/loisir1.jpg" alt="First slide">
+						<div class="container">
+						  <div class="carousel-caption text-left">
+							<h1>Balade à mont Marte - Paris</h1>
+							
+						  </div>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="second-slide" src="images/loisir5.jpg" alt="Second slide">
+						<div class="container">
+						  <div class="carousel-caption">
+							<h1>Balade sur l'allée des horloges - Rouen</h1>
+							
+						  </div>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img class="third-slide" src="images/loisir6.jpg" alt="Third slide">
+						<div class="container">
+						  <div class="carousel-caption text-right">
+							<h1>Sortie dans un restaurant</h1>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Precedent</span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Suivant</span>
+					</a>
+			  </div>
+			</div>
+		</section>
+		
+		<!-- Video -->
+		<section>
+			<div class="heading">
+				<h2>Lien vers la vidéo</h2>
+				<a href="video/Presentation-cecilia_boukaka_.mp4" target="_blank">Cliquez ici pour lire la vidéo</a>
+			</div>
+		</section><br><br><br><br>
+		
+		<!-- footer -->
+		<footer>
+			<div class="contact-info">
+				<p>BOUKAKA Cécilia Emmanuelle</p>
+				<p>Email: <a href="mailto:boukaka.ceciliaemma@gmail.com">boukaka.ceciliaemma@gmail.com</a></p>
+				<p>Téléphone: +33 6 41 23 01 83</p>
+			</div>
+		</footer>
+		
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+	</body>
+</html>
