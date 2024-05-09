@@ -1,0 +1,62 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #e83636;
+}
+
+header {
+	background-color: #66CDAA;
+	text-align: center;
+}
+
+.diaporama {
+	padding: 20px;
+}
+a{
+	color:white;
+}
+
+div.education-block{
+	border:3px solid white;
+	padding:6px;
+	border-radius: 3px;
+}
+
+.slideshow {
+	/* Styles pour le diaporama de photos */
+}
+
+footer {
+		position: fixed;
+		bottom: 0;
+		background-color: #333;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+}
+
+#texteDefilant {
+  position: absolute;
+  white-space: nowrap;
+  width: 50%;
+  animation: defilementTexte linear infinite;
+  animation-duration: 10s;
+  white-space: nowrap;
+  
+}
+
+@keyframes defilementTexte {
+  0% { transform: translateX(50%); }
+  50% { transform: translateX(-20%); }*/
+}
+
+/*Diapo*/
+
+.diaporama{
+	width:90%;
+	height:600px;
+}
+
+/* Navbar */
+
